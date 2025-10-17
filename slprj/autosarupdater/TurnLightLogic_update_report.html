@@ -1,0 +1,217 @@
+<html>
+<head>
+<script language="JavaScript" type="text/javascript">
+/*<![CDATA[*/
+function rtwRunMatlabCmd(cmd) {
+  try { 
+    window.location.href="matlab: " + cmd;
+  } catch (e) { 
+  } 
+}
+/*]]>*/
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="autosarreport.css" /><title>
+TurnLightLogic 的 AUTOSAR 更新报告
+</title>
+
+</head>
+<body>
+<h1>
+TurnLightLogic 的 AUTOSAR 更新报告
+</h1>
+<h3 class="subhead">
+软件组件: <font color="#D55000">/ComponentTypes/TurnLightLogic</font><br>原始模型另存为: <font color="#D55000">TurnLightLogic_backup_1</font>
+</h3>
+<p>
+此报告详细说明基于导入的 arxml 和模型中包含的现有 AUTOSAR 配置之间的差异而应用于 Simulink 模型 <font color="#D55000">TurnLightLogic</font> 的更新。原始模型的备份已保存到 <font color="D55000">TurnLightLogic_backup_1</font> (<a href="matlab:save_system('TurnLightLogic');visdiff('TurnLightLogic', 'TurnLightLogic_backup_1')">比较模型</a>)。报告还建议手动模型更改。
+</p>
+<h2 class="product">
+Simulink
+</h2>
+<h2>
+自动模型更改
+</h2>
+<ul>
+
+</ul>
+<h2>
+自动工作区更改
+</h2>
+<ul>
+<li>
+<span class="add">已添加</span> Simulink.Bus TurnLightService_Ctrl_Oeration
+</li>
+<li>
+<span class="add">已添加</span> Simulink.Parameter P_TurnLightService_Ctrl_Oeration
+</li>
+
+</ul>
+<h2>
+所需的手动模型更改
+</h2>
+<ul>
+
+</ul>
+<h2>
+可选手动工作区更改
+</h2>
+<ul>
+
+</ul>
+<h2 class="product">
+AUTOSAR
+</h2>
+<h2>
+自动 AUTOSAR 元素更改
+</h2>
+<ul>
+<li>
+<span class="delete">已删除</span> DataConstr /AUTOSAR_Platform/DataConstrs/DC_ComplexTurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> DataConstr /AUTOSAR_Platform/DataConstrs/DC_ComplexTurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> Package /AUTOSAR_Platform/ImplementationDataTypes/Units
+</li>
+<li>
+<span class="delete">已删除</span> Unit /AUTOSAR_Platform/ImplementationDataTypes/Units/NoUnit
+</li>
+<li>
+<span class="delete">已删除</span> Package /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes
+</li>
+<li>
+<span class="delete">已删除</span> Enumeration /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/POS_NOREQUEST
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/LEFT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/RIGHT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/ALL
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/FRONT_LEFT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/MIDDLE_LEFT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/REAR_LEFT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/FRONT_RIGHT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/MIDDLE_RIGHT
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightPosition/REAR_RIGHT
+</li>
+<li>
+<span class="delete">已删除</span> Enumeration /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightOnOff/ONOFF_NOREQUEST
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightOnOff/OFF
+</li>
+<li>
+<span class="delete">已删除</span> EnumerationLiteral /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/ComplexTurnLightOnOff/ON
+</li>
+<li>
+<span class="delete">已删除</span> Integer /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/uint8
+</li>
+<li>
+<span class="delete">已删除</span> Package /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/DataConstrs
+</li>
+<li>
+<span class="delete">已删除</span> DataConstr /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/DataConstrs/DC_uint8
+</li>
+<li>
+<span class="delete">已删除</span> Structure /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightDutyCycle
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightCycle
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightTimes
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightNumber
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService/TurnLightPriority
+</li>
+<li>
+<span class="delete">已删除</span> Structure /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightDutyCycle
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightCycle
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightTimes
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightNumber
+</li>
+<li>
+<span class="delete">已删除</span> StructElement /AUTOSAR_Platform/ImplementationDataTypes/TurnLightService/TurnLightPriority
+</li>
+<li>
+<span class="delete">已删除</span> Integer /AUTOSAR_Platform/ImplementationDataTypes/ComplexTurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> Package /AUTOSAR_Platform/ImplementationDataTypes/DataTypeMappings
+</li>
+<li>
+<span class="delete">已删除</span> DataTypeMappingSet /AUTOSAR_Platform/ImplementationDataTypes/DataTypeMappings/TurnLightLogicDataTypeMappingsSet
+</li>
+<li>
+<span class="delete">已删除</span> Integer /AUTOSAR_Platform/ImplementationDataTypes/ComplexTurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> Runnable /ComponentTypes/TurnLightLogic/TurnLightLogic_InternalBehavior/TurnLightLogic_Init
+</li>
+<li>
+<span class="delete">已删除</span> CompuMethod /DataTypes/CompuMethods/COMPU_ComplexTurnLightPosition
+</li>
+<li>
+<span class="delete">已删除</span> CompuMethod /DataTypes/CompuMethods/COMPU_ComplexTurnLightOnOff
+</li>
+<li>
+<span class="delete">已删除</span> CompuMethod /DataTypes/CompuMethods/Identcl
+</li>
+<li>
+已将 ArgumentData /PortInterfaces/TurnLightService_TurnLightControl_Operation/Operation/TurnLightCtrlPara 的 Type reference 从 '/AUTOSAR_Platform/ImplementationDataTypes/ApplDataTypes/TurnLightService' <span class="update">更新</span>为 '/DataTypes/TurnLightService_Ctrl_Oeration'
+</li>
+
+</ul>
+
+</body>
+
+</html>

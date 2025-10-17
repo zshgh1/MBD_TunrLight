@@ -1,0 +1,74 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   8 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "CountSignal_Signal"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "CountSignal_Signal"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_TurnLightMode_Control"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_TurnLightMode_Control"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_LONG"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "LONG"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_THREE"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "THREE"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "TurnLamp_Out_Signal_prev"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "TurnLamp_Out_Signal"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "TurnLamp_Out_Signal_start"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "TurnLamp_Out_Signal"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

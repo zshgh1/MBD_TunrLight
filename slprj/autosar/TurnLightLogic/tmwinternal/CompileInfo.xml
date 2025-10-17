@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2023a http://schema.mathworks.com/mf0/slexec_mm_sto/R2023a_202208151321 http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="3886c903-723c-4961-922b-954d801ff6b6">
+    <JITEngines>s5ttHGX8nzRMl8LRvUEYzPD</JITEngines>
+    <JITEngines>sY8ZOJIWsHHnfamkqEDg82F</JITEngines>
+    <JITEngines>sYnFqB9dEHmt3XYyLJYLHyC</JITEngines>
+    <JITEngines>szWzstWTfSyu6HpXJpd8afD</JITEngines>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="06e64a57-cb5f-411c-89e0-a5d2419c6412">
+      <dstNodeIdx>1</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="35e1b4c0-de9a-4476-932f-a74cc43ff5f7">
+      <dstNodeIdx>2</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="35d975a1-6988-49a5-a677-2c660493afd4">
+      <dstNodeIdx>3</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="170bd659-9f9c-4241-b3b8-88e5c1c432d6">
+      <dstNodeIdx>4</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="585d3b4a-dcaa-4268-8f76-96818b0ff62d">
+      <dstNodeIdx>5</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="7c58ca4f-f6f9-4b4b-852d-dacb853d8465">
+      <dstNodeIdx>6</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="d4572b23-790e-48b4-85ac-39896c678419">
+      <dstNodeIdx>7</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="bf8955a5-31ff-4996-a4ee-6f2a5ad19bfe">
+      <dstNodeIdx>8</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="70d379af-037d-4297-9451-b0881364f689">
+      <dstNodeIdx>9</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="af2317c4-7530-425f-b3e4-91b94b55c591">
+      <dstNodeIdx>10</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="9630c3eb-4028-44f7-baf3-b2bb64bd8617">
+      <dstNodeIdx>11</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="8aad7f3b-df98-49ee-843a-f2131356f2fc">
+      <dstNodeIdx>12</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="308e10df-c77d-4f39-8d46-a0fd2095b42a">
+      <dstNodeIdx>13</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="4334bea0-8a19-467d-bfdf-a9d513d4a5e8">
+      <dstNodeIdx>14</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="ffe997dc-53d4-4a39-a5bd-34e6db4ae852">
+      <dstNodeIdx>15</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="307c705c-3f98-403f-b567-a39a8b472639">
+      <dstNodeIdx>16</dstNodeIdx>
+    </allEdges>
+    <allEdges type="ModelRefInfoRepo.SampleTimeGraphEdge" uuid="4644a824-064d-4a08-8839-1a460ff726eb">
+      <dstNodeIdx>17</dstNodeIdx>
+    </allEdges>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="89d8a88e-16f4-429b-9adc-116bbf6210ce">
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>TurnLightLogic</modelName>
+      <modelPath>TurnLightLogic</modelPath>
+    </childModelRefInfo>
+    <containsInitResetTermSampleTimes>true</containsInitResetTermSampleTimes>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fcnCallPortGroups type="ModelRefInfoRepo.FcnCallPortGroup" uuid="4ed83c96-a4cc-4f3e-bd6d-8dd9ba0cd4a3">
+      <callerNames type="ModelRefInfoRepo.QualifiedFunctionName" uuid="fa78fc13-4639-4f89-ac95-fb3d5008fae3">
+        <functionName>TurnLightService_TurnLightControl_Operation_Operation</functionName>
+      </callerNames>
+      <hasDisableMethod>true</hasDisableMethod>
+      <hasEnableMethod>true</hasEnableMethod>
+      <hasTaskPriority>true</hasTaskPriority>
+      <isAsync>true</isAsync>
+      <isPeriodicFcnCall>true</isPeriodicFcnCall>
+      <schedulingPriority>2147483647</schedulingPriority>
+      <taskPriority>40</taskPriority>
+      <tid>1</tid>
+      <compDataInputPorts>1</compDataInputPorts>
+      <compDataInputPorts>2</compDataInputPorts>
+      <compDataInputPorts>3</compDataInputPorts>
+      <compDataInputPorts>4</compDataInputPorts>
+      <compDataInputPorts>5</compDataInputPorts>
+      <compDataInputPorts>6</compDataInputPorts>
+      <compDataInputPorts>7</compDataInputPorts>
+      <compDataInputPorts>8</compDataInputPorts>
+      <compDataInputPorts>9</compDataInputPorts>
+      <compDataInputPorts>10</compDataInputPorts>
+      <compDataInputPorts>11</compDataInputPorts>
+      <compDataInputPorts>12</compDataInputPorts>
+      <compDataInputPorts>13</compDataInputPorts>
+      <compDataInputPorts>14</compDataInputPorts>
+      <compDataInputPorts>15</compDataInputPorts>
+      <compDataInputPorts>16</compDataInputPorts>
+      <compDataInputPorts>17</compDataInputPorts>
+      <dataInputPorts>1</dataInputPorts>
+      <dataInputPorts>2</dataInputPorts>
+      <dataInputPorts>3</dataInputPorts>
+      <dataInputPorts>4</dataInputPorts>
+      <dataInputPorts>5</dataInputPorts>
+      <dataInputPorts>6</dataInputPorts>
+      <dataInputPorts>7</dataInputPorts>
+      <dataInputPorts>8</dataInputPorts>
+      <dataInputPorts>9</dataInputPorts>
+      <dataInputPorts>10</dataInputPorts>
+      <dataInputPorts>11</dataInputPorts>
+      <dataInputPorts>12</dataInputPorts>
+      <dataInputPorts>13</dataInputPorts>
+      <dataInputPorts>14</dataInputPorts>
+      <dataInputPorts>15</dataInputPorts>
+      <dataInputPorts>16</dataInputPorts>
+      <dataInputPorts>17</dataInputPorts>
+      <preCompRateSpec type="ModelRefInfoRepo.RateSpec" uuid="4684dfda-e28c-4f89-9dba-0f1ecc31a4f6">
+        <period>.01</period>
+      </preCompRateSpec>
+      <simulinkFunctionName type="ModelRefInfoRepo.QualifiedFunctionName" uuid="4b072252-9f83-480c-9715-6053cb17920d"/>
+    </fcnCallPortGroups>
+    <fundamentalSampleTimePeriod>.01</fundamentalSampleTimePeriod>
+    <globalVariables>P_TurnLightService_Ctrl_Oeration</globalVariables>
+    <globalVariables>TurnLightService</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="5b737518-22f9-493e-bd67-0a5f59bf7b94">
+      <hasSystemInitMethod>true</hasSystemInitMethod>
+      <isFunctionCallInitiator>true</isFunctionCallInitiator>
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="57c008cd-9bd5-4687-85d8-9866ddffeeaa"/>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="03ab8efe-72bc-4def-8bdc-3f355ce32739"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="3868a767-5c17-4391-be40-6a825c21f634"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="0e1f4aa7-7548-4c8f-8161-9f39fb0b8748">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="9c880395-4281-449a-a78a-c36c873b5989">
+        <ElementName>Signal</ElementName>
+        <PortName>CountSignal_Left</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="4e86128b-e7a8-40bb-b2a7-8cb2e5510187"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="11609b5c-34e4-4137-9622-3648d74a4666"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="120cb0c1-5325-4b92-a95d-12995a1b73ea">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>2</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="ddb08384-e50c-4316-9d1f-eb0b4e71dc4a">
+        <ElementName>Signal</ElementName>
+        <PortName>CountSignal_Right</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="c0ccdb6a-a461-4cb1-a269-2420cdf9f20f"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="e9a123b1-c6ab-4f92-ad01-707aaf8b5e9c"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="a9495ad9-b1fa-4f4e-b497-4bcd397114b9">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>3</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="a23e8f44-9cac-4678-9e95-6589a0297f7d">
+        <ElementName>Signal</ElementName>
+        <PortName>CrashIntensity</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="d4e08811-bb95-4740-9f2a-72ed1eb76dda"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="2b2ee79c-f806-452b-9d70-b4967c5bd63c"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="77d52374-1307-4bac-864f-b7b389977166">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>4</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="55b7d152-7056-44ac-8b8c-527b686676b1">
+        <ElementName>Signal</ElementName>
+        <PortName>EmergencyBrakeLight</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="5e50f80a-ab5a-4de8-9a66-5570ea9c0d3a"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="476cfc6e-8625-44ec-b900-f6b39dedf206"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="31d6cec2-7533-4530-ad83-081dca9e232b">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>5</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="52917987-519d-4944-a2af-67e103a14191">
+        <ElementName>Signal</ElementName>
+        <PortName>HazardSw</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="28794fe1-7538-4bff-b4a4-4eccae68dbdf"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="1011d45c-0ed5-4c85-9d53-750f5f76e2cb"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="50685c1b-a771-4dd0-bab8-45ffb59f5a77">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>6</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="94668261-7d91-44e9-b011-bd147db9b9bf">
+        <ElementName>Signal</ElementName>
+        <PortName>IGN_Status</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="7d3aa04e-ac12-431f-97bf-1cbfbe07ae0c"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="d1eeba93-97ed-4351-bc3d-511af5b21fa8"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="39586071-20f0-4b0a-a296-3d2fc8e6346f">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>7</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="f522d51d-04dc-4dc9-ac76-3cfb74f4977e">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampCtrlCmd_FL</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="8748b631-6e5c-481b-b985-68d748548d3f"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="a9d41ddb-862e-45e2-99b3-4169a5141258"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="d38f1833-0281-4651-b10c-81cb0a8adff1">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>8</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="668f5307-ec64-42c3-9285-2a1d4eb6e72d">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampCtrlCmd_FR</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="a0e119f7-3f47-47ae-8f5e-3148c7624a8e"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="b5640b6d-b11b-4e69-b5be-c5b6e73a7450"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="d46bad01-b0f0-476d-904f-10085a5c1f2a">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>9</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="15da6848-e5b3-4024-ab62-89f2dbc12965">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampCtrlCmd_RL</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="da802eab-0b5d-4410-a808-a414857ae8db"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="f52c19df-52c4-47d5-b5af-1630f34af7bf"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="4a5d8277-132b-4052-b0e7-5d0da1413e1d">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>10</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="37c534af-30f1-4b3d-b24b-9291edfd065d">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampCtrlCmd_RR</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="c2549428-0c4d-4f47-afbc-9335578de6ee"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="cc414954-21b9-4a27-8b21-8c2829f0b98c"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="a588961c-ddd3-4d65-b1e3-502775a7e1f6">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>11</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="e31e6117-6ddd-4450-9773-fad385972616">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampFb_FL</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="ae9962ba-a573-4419-8d1a-ed337ece4c35"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="6b91ffeb-f189-401d-acd7-e4f1499dda16"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="deae705f-a877-4448-97bb-a19a7fcd97e9">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>12</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="1687341d-a562-45e0-bc34-d4b7759cafa7">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampFb_FR</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="a230381e-edbf-4ae9-b58e-c32cf51bcd37"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="d674279e-618a-48ef-aa60-bbf59f9f4abb"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="6fe86427-c3d8-4775-bc6c-e323921ad5a3">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>13</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="236bfcc3-838c-4654-a575-3655e9648769">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampFb_RL</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="e3e1e5bb-d08c-45f3-8180-492024aacac2"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="5a6b5f22-ad64-4ff0-8969-89dbf42a584e"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="422f39db-3184-4b51-b332-64213d6bebd9">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>14</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="90800813-24f2-41d0-9f1c-9416690ca5f0">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampFb_RR</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="e0a51005-d5de-4f91-ae17-ec837f32b89b"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="52363cbd-a41f-4f46-8d78-ca1d7e27d9da"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="a3820796-98c7-42e2-9865-06ef1df7a9f0">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>15</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="d1636d9c-65eb-4d2a-bd41-587de3522943">
+        <ElementName>Signal</ElementName>
+        <PortName>TurnLampSw</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="63d24e30-4b87-4e80-a5b2-ed7fe3e451d9"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="96403553-8e06-4951-9a43-2311ad0fafb8"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="9d44b247-a408-4835-9511-b0420597012b">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>16</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="53cea035-895f-4e48-a5d1-5f18e33e68d3">
+        <ElementName>Signal</ElementName>
+        <PortName>VehicleSpeed</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="5440745a-09b5-441f-92f2-297a185d3077"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="419ef0bb-1669-4317-bd86-d4b3d2bc1800"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="ba10dd7c-d50d-4788-ac71-ad3f93d271de">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>17</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <period>.01</period>
+        <priority>41</priority>
+        <rateIdx>1</rateIdx>
+        <taskedExplicitly>true</taskedExplicitly>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="6cd61af6-34bb-4e98-aa29-002e2dddfbbc">
+        <ElementName>Signal</ElementName>
+        <PortName>VehicleSpeed_Valid</PortName>
+      </autosarInfo>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="b6be98d2-aea5-4ba4-9d3c-333c56659a4e"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="3d2a804a-a9bb-482d-8c9a-f47d7aab50ae"/>
+    </inports>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isNumAllowedInstancesOne>true</isNumAllowedInstancesOne>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <loggingSaveFormat>6</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDataInputPorts>18</numDataInputPorts>
+    <numInportFcnCallPortGroups>1</numInportFcnCallPortGroups>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <isEmpty>true</isEmpty>
+      <period>.01</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <period>.01</period>
+      <priority>41</priority>
+      <rateIdx>1</rateIdx>
+      <taskedExplicitly>true</taskedExplicitly>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>323</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="f4be45d4-0d16-4e12-a521-f3373ac64c49">
+      <defaultValue>POS_NOREQUEST</defaultValue>
+      <enumName>ComplexTurnLightPosition</enumName>
+      <labels>POS_NOREQUEST</labels>
+      <labels>LEFT</labels>
+      <labels>RIGHT</labels>
+      <labels>ALL</labels>
+      <labels>FRONT_LEFT</labels>
+      <labels>MIDDLE_LEFT</labels>
+      <labels>REAR_LEFT</labels>
+      <labels>FRONT_RIGHT</labels>
+      <labels>MIDDLE_RIGHT</labels>
+      <labels>REAR_RIGHT</labels>
+      <storageType>uint8</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+      <values>6</values>
+      <values>7</values>
+      <values>8</values>
+      <values>9</values>
+    </standaloneEnumInfos>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="117313bb-44a3-4eb1-b759-74f0844c2425">
+      <defaultValue>ONOFF_NOREQUEST</defaultValue>
+      <enumName>ComplexTurnLightOnOff</enumName>
+      <labels>ONOFF_NOREQUEST</labels>
+      <labels>OFF</labels>
+      <labels>ON</labels>
+      <storageType>uint8</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2023a_202208151321&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;41decca5-30df-4eb5-8dae-5dde694428e7&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;TurnLightLogic&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;93005ae3-dd61-48fe-841c-b0e833ae7292&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;87237018-f7be-440b-b3ed-420b899083e5&quot;&gt;
+        &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.01&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;6565bfaa-723e-4e34-a5a4-7e6c0ba14c55&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.01&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;TurnLightLogic::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;6565bfaa-723e-4e34-a5a4-7e6c0ba14c55&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;TurnLightLogic::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4a5707cf-8ae4-440a-af2d-f3e350433eaa&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;0615debc-5a93-4abc-a4a5-ade04be6696a&quot;&gt;
+          &lt;annotation&gt;F0&lt;/annotation&gt;
+          &lt;clockId&gt;TurnLightLogic::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;导出的离散&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;Runnable&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4f78a3b1-4857-481d-8af6-6da8e0c676d7&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;47b762cb-ff83-4393-bdb6-b5a67056a316&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;TurnLightLogic::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d3c002ac-9e1e-46e6-b913-54757c2598f2&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;5e04ffa5-3921-4de6-b23a-637331b5382d&quot;&gt;
+        &lt;eventType&gt;POWER_UP_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;Init&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;e6126a7c-0547-40bb-a4bf-f4af6df0c0ef&quot;&gt;
+          &lt;annotation&gt;Init&lt;/annotation&gt;
+          &lt;clockId&gt;Init&lt;/clockId&gt;
+          &lt;colorIndex&gt;10&lt;/colorIndex&gt;
+          &lt;description&gt;初始化&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideInitializeEvent&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;2ae89f1f-2ef8-418d-8081-e444e96b10d4&quot;&gt;
+            &lt;offset&gt;1.0&lt;/offset&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideInitializeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;ebbc4928-6e5c-49e9-9ca4-2ce3c869040c&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;2&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;a1686246-1248-4edc-8ebd-846bfc2da7bc&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;3049eb46-3743-4484-9ad5-f22df23c1995&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;e5c88cb3-d823-4968-bc95-ef756cf8dd70&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;e7b7cafc-cfa2-4169-8ef6-2adc6d221add&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;66307b12-ec91-4f65-ae2a-5a1de15d0f53&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;TurnLightLogic::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;b100d4e5-2d75-4105-bdd1-7715b17cb20b&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;TurnLightLogic::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;TurnLightLogic::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;de5fb625-2f87-4545-a3ad-f95c1ebd1fe4&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;fbc26146-d382-40f7-9b08-d5894e138bdf&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e2e788dd-6f6a-4a21-a0d0-8bb1641e2563&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;TurnLightLogic::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;eeef8c1a-9489-4e03-baff-0641e05950cd&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;d1f79033-eed8-4ce9-b0c5-2420ae330f9d&quot;&gt;
+          &lt;annotation&gt;Init&lt;/annotation&gt;
+          &lt;clockId&gt;Init&lt;/clockId&gt;
+          &lt;colorIndex&gt;10&lt;/colorIndex&gt;
+          &lt;description&gt;初始化&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideInitializeEvent&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4ae5517a-660e-4933-bf19-5259a4b54d18&quot;&gt;
+            &lt;offset&gt;1.0&lt;/offset&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideInitializeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;Init&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;2&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;TurnLightLogic::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideInitializeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;775ca469-9d80-4c89-ae29-f7023e7d6e71&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;13074146-f7e1-4817-8a43-a8932cec8fee&quot;&gt;
+          &lt;annotation&gt;F0&lt;/annotation&gt;
+          &lt;clockId&gt;TurnLightLogic::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;导出的离散&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;Runnable&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;99931f12-aa0f-44f2-94d8-bda4cb28a7cb&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;TurnLightLogic::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;1&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;TurnLightLogic::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;Runnable&lt;/identifier&gt;
+        &lt;priority&gt;41&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;53f71e45-7225-449e-a7f9-0708c6824021&quot;&gt;
+        &lt;clockIdentifier&gt;Init&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideInitializeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;7bf7f924-cf25-4fbd-ab1e-e0ab5469780c&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;4fc37330-bed5-41b8-ae60-24b46a8f7c69&quot;&gt;
+        &lt;clockIdentifier&gt;TurnLightLogic::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;cb7983aa-ff42-48e3-8584-3be2c01059ce&quot;&gt;
+        &lt;clockIdentifier&gt;TurnLightLogic::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;Runnable&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="c8471e83-0c5a-4f13-b773-afb05e049743"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="0a07e691-1b32-4987-ba31-9383e9bea4c5"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="5f7c3c02-f926-46f2-a126-f46dd41293b0"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="1b368819-36f2-48c7-bbe8-853bd3cc428f">
+      <LUTObjectStructOrderEvenSpacing>1</LUTObjectStructOrderEvenSpacing>
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.01</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <isExportFcnDiagram>true</isExportFcnDiagram>
+      <isRateGrouped>true</isRateGrouped>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverMode>SOLVER_MODE_MULTITASKING</solverMode>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="da8f6376-afa8-4188-9b5f-0cf99880ea12">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="e4bd1459-9cab-4bd3-a38d-864e6f7ed8e4"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="eb8c3314-e5db-40e3-8248-0ecdfa3755da"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="f352c8b2-eb10-4ed6-ae19-630a59187e95"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="f1005a68-bed0-4ab1-998a-a9d4de40ccbe"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="d42b25fe-04e3-43e5-ad42-4ffa9bfe6049"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="0d543b5c-58a7-4b3f-834b-97a77fc454f8"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="f6af66a3-626c-439e-b211-adff8aba617b">
+      <hasEnableMethod>true</hasEnableMethod>
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="416ce759-bb3d-4804-b725-fa3be1733507"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="b6f33ea1-fadb-49d3-a187-50642e28d89c">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="6f369c85-9391-418b-950d-d4cb7db7327c"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="dc7a5106-47f0-4e1f-9e2b-3995fa9bb016"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="8de5e06b-e8a1-4345-a81d-1a2d3d0e2db4"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="a95130a9-159a-4e2c-91a7-0758c271a97b"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="e346ffdf-f0a8-4d50-b9d4-7b7b8b0129c1"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="b39bef2d-54e7-47ee-bf4a-f69123e0ab23">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="f16c42a1-dd16-4913-97e7-e8600dbdcc02">
+        <p_InputPorts type="ci.SignalInterface" uuid="331ea7e9-857f-4fe1-ac50-020db51ef832">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>fcn_call</p_ComputedType>
+          <p_Name>Runnable</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="ebcaabbd-0ce3-4517-b890-2960e6ab116d">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>CountSignal_Left_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="71f2f994-8962-419e-a8a4-e48cc7b1365c">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>CountSignal_Right_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="b20ea4c5-f378-465b-8d9a-51ec8a136a39">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>CrashIntensity_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="b97cfae4-a20a-4dba-9989-ce5f410bb08d">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>EmergencyBrakeLight_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="5538c77f-5d4e-4314-988e-e67c7e0be878">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>HazardSw_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="fbd1909e-85d2-41e1-b72d-46a43a7380d9">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>IGN_Status_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="2a8970c2-885a-498e-a153-4815c8247f04">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampCtrlCmd_FL_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="5f78ba51-9eac-4de8-9ddb-f630cea9c867">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampCtrlCmd_FR_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="3f828cf5-d21f-4cdb-84ec-1ece86e295b8">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampCtrlCmd_RL_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="b204a9ad-5977-4cfd-b532-589b16f99493">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampCtrlCmd_RR_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="d6b6bafb-9f7f-449f-9a5f-24aad43c3614">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampFb_FL_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="42cbec9e-85c8-4f5d-94fa-f23539d6b9dc">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampFb_FR_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="22970d4c-7b30-40cc-acbd-6476d1fbe4ba">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampFb_RL_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="b6a22ff7-084a-40d2-bef8-e29e60a0c87e">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampFb_RR_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="11d5ea0b-25dc-4dcf-8d2d-a14be2bfe688">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>TurnLampSw_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="b7c0c253-3cdb-4a3b-ab7e-6d34d62d1b09">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>VehicleSpeed_Signal</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="a415c9e8-9b87-4c32-a109-02708f35b5cd">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>uint8</p_ComputedType>
+          <p_Name>VehicleSpeed_Valid_Signal</p_Name>
+        </p_InputPorts>
+        <p_Name>TurnLightLogic</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="8835485d-9693-48cc-b6d2-f2b3fb0024bd">
+      <compFunctions type="ModelRefInfoRepo.CompFunction" uuid="c54d40d9-85fb-41f4-83c2-b34bf25adfb7">
+        <CGFunctionName>TurnLightService_TurnLightControl_Operation_Operation</CGFunctionName>
+        <CGIsCalled>true</CGIsCalled>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem2/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem11/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem12/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem13/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem14/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem10/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem1/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem9/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem7/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem4/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem3/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem5/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem6/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <callerBlocks>TurnLightLogic/Runnable_sys/Function-Call Subsystem8/TurnLightService_TurnLightControl_Operation_Operation</callerBlocks>
+        <functionName>TurnLightService_TurnLightControl_Operation_Operation</functionName>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem1/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem10/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem11/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem12/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem13/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem14/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem2/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem3/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem4/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem5/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem6/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem7/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem8/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/Function-Call Subsystem9/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <refBlockPaths>TurnLightLogic/Runnable_sys/TurnLightService_TurnLightControl_Operation_Operation</refBlockPaths>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="933a3e7d-0b18-41df-8ec8-a624d8682865">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="d6f7ba5c-4047-4d02-ae79-f757f82cd49c">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="f03f33df-f1d8-4ebb-8f24-ecf4e39b531b">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem1/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="2f6f7163-6ab2-4483-bf85-5f86bb91f6bf">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="8d044da9-c7af-4647-9c3d-bcd1651cd36a">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem10/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="85898601-bba7-404d-aa21-bee2cdd3784c">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="f4953229-e4f9-467b-860a-bb99c1f0e001">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem11/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="eb68f1e3-67fa-4756-836a-3e311bf8eba0">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="8a86a0ce-53f7-4336-b660-566f66ee4333">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem12/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="1857f7c3-a5be-4a3c-acf6-b6fefe43e66d">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="c127f501-c53e-49ee-807c-c738dc3d12ee">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem13/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="1c795929-e183-4032-a2dc-95fddbd139bf">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="25007056-38e3-4d08-af84-0fc249d405c4">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem14/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="f99fa542-c891-4f3a-ad28-9128b4626e34">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="ae75b674-ae45-4ddd-9a5e-3e64f1138954">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem2/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="55ce385f-3bb8-4ce4-8755-4dec775cc88f">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="dc013ef1-e651-4ba4-8505-41a32d721a8c">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem3/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="49bfcf72-84ca-4799-9504-a8015855899a">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="00915194-1026-4ea9-b192-6159964539f1">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem4/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="391629ee-693b-4c41-ad3a-8af6418ed167">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="e5310797-ed6f-466a-8a1d-e093eb5f428c">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem5/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="7b392b8c-8a84-412b-a8ab-7c2ff0f15d7c">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="9266b690-6278-46dc-a2f5-f9f6eecfdc5d">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem6/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="a37238c5-ad4e-4911-925f-d21eb9789974">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="66851ea0-85b2-4c43-9e35-8f51f7fd2fa2">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem7/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="2720cbc9-7770-41b7-88ae-6950f39126a4">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="e28284f8-9c14-461d-bb53-91e00b17c414">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem8/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="a12e5b77-f8cc-4b75-afb3-0677fe010ea7">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="acf2314c-feca-470e-b14b-e13a66d3c1a2">
+          <refBlockPath>TurnLightLogic/Runnable_sys/Function-Call Subsystem9/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="c1178785-712c-46d6-9a51-6b1ac6b14fb9">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <variantCallerNetEMVCEMap type="ModelRefInfoRepo.VariantCallerNetEMVCE" uuid="7d511169-245b-4a66-93d7-5bd989173958">
+          <refBlockPath>TurnLightLogic/Runnable_sys/TurnLightService_TurnLightControl_Operation_Operation</refBlockPath>
+          <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="968d89b3-334b-4959-9f32-dde5ae9c991f">
+            <EMVCE>({true}_0)</EMVCE>
+          </variantFunctionNetEMVCE>
+        </variantCallerNetEMVCEMap>
+        <visibility>Global</visibility>
+        <fcnArgs type="ModelRefInfoRepo.CompFunctionArgs" uuid="0735df29-585a-4208-909f-bc265b249f8a">
+          <argIndexMap type="ModelRefInfoRepo.ArgIndexMap" uuid="b725f7c4-de4b-4c2b-80b5-5e9746e33144">
+            <index>I0</index>
+          </argIndexMap>
+          <argNameMap type="ModelRefInfoRepo.ArgNameMap" uuid="e2c7259e-4fec-4023-a17c-247d18b3088b">
+            <name>TurnLightCtrlPara</name>
+          </argNameMap>
+          <inArgs type="ModelRefInfoRepo.CompFunctionArgInfo" uuid="3d8a18b0-c9c3-47f1-9e56-c72385d42517">
+            <dims>1</dims>
+            <dims>1</dims>
+            <dataType type="ModelRefInfoRepo.CompDataType" uuid="fb3fe285-2656-485d-afa0-8d3e5b95bffe">
+              <dataClass>Bus</dataClass>
+              <dataTypeName>TurnLightService</dataTypeName>
+            </dataType>
+          </inArgs>
+          <returnArgIdx>-1</returnArgIdx>
+        </fcnArgs>
+      </compFunctions>
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="dd3bf88c-db02-42c1-965a-a98835481820">
+      <globalData type="sltp.mm.core.GlobalData" uuid="c1527323-fb37-4bc3-9788-710e29243a17">
+        <dataName>portCountSignal_Left_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="aca34ec8-a3bc-4616-a6b9-7d73d6486404">
+        <dataName>portCountSignal_Right_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="38f0fb0d-f879-4ef0-8e6c-644e1eafd22d">
+        <dataName>portCrashIntensity_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f2fc519a-9ed6-4293-8037-b386b306e433">
+        <dataName>portEmergencyBrakeLight_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f1731c77-d506-47d9-bcb5-62b276abc3da">
+        <dataName>portHazardSw_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="069c1b81-f668-4a1d-aaad-a6859737392c">
+        <dataName>portIGN_Status_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0a376e7a-72db-49aa-ab21-0b2f110c1b65">
+        <dataName>portRunnable</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3b540926-6df5-47d4-b337-fc109391ec78">
+        <dataName>portTurnLampCtrlCmd_FL_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8dc4ed7c-25ae-4206-8707-0e90d7ff5046">
+        <dataName>portTurnLampCtrlCmd_FR_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="dc0e549b-cc55-4c59-b9ec-3cae2d80b54b">
+        <dataName>portTurnLampCtrlCmd_RL_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7c862c90-b2f1-4ec5-8270-d85a4dd82b3d">
+        <dataName>portTurnLampCtrlCmd_RR_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f1b8034f-30cc-4b1d-9162-655a6c408d59">
+        <dataName>portTurnLampFb_FL_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f5d42f33-3cc7-4a11-9ee7-9c5298abfa61">
+        <dataName>portTurnLampFb_FR_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b0c306f0-14c4-478f-b1bd-93e044061e3c">
+        <dataName>portTurnLampFb_RL_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b326e197-3db9-41aa-ba06-c0da74f0e4cd">
+        <dataName>portTurnLampFb_RR_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="407a49f8-8d6f-4f9f-9936-2a281073358a">
+        <dataName>portTurnLampSw_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="25e5443e-d727-41e6-9258-407eff5a991d">
+        <dataName>portVehicleSpeed_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9b9f6db9-c961-451b-a6f0-5404ea006001">
+        <dataName>portVehicleSpeed_Valid_Signal</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="fcd1ced1-4622-404f-be4d-a0e35ff7a97f"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="dbc4a127-aa57-49bb-a973-013f275135bb">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="f7c99471-4ce1-4ccc-ac50-45ad4563c167"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="5899f5bd-3129-4a73-a86f-8e1f0f29b9b6">
+        <context type="sltp.mm.core.Context" uuid="dd3bf88c-db02-42c1-965a-a98835481820"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="d75778aa-fdf2-4458-b90d-d78051a60120">
+          <tasks type="sltp.mm.core.Task" uuid="b326ef67-3b8a-490d-a145-14ce379dfb69">
+            <context type="sltp.mm.core.Context" uuid="dd3bf88c-db02-42c1-965a-a98835481820"/>
+            <id>1</id>
+            <isTimed>true</isTimed>
+            <name>Runnable</name>
+            <priority>-2147483648</priority>
+            <rates type="sltp.mm.core.Rate" uuid="ae75bde3-4394-4619-bec8-a4a2a3775f08">
+              <annotation>F0</annotation>
+              <color>-436207361</color>
+              <hasBlocks>true</hasBlocks>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.01</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+            <sourceBlocks>3</sourceBlocks>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="36ed3ea8-5af4-4236-ab8d-87ebc078dfc2"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="30ebc85e-09e4-4fe7-b667-a540d4e5b468">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="05146986-f9fd-457c-837d-936f2bf49f8c">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="8ac3087a-ab94-4d54-ad56-dc139ec0f80c">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="59fa7498-9b60-4dfb-ab37-f5be5b272be1">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="bd0a7213-0156-494a-8f04-2389c61272aa"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="bd0a7213-0156-494a-8f04-2389c61272aa">
+          <dataName>Runnable</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="59fa7498-9b60-4dfb-ab37-f5be5b272be1"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>TurnLightLogic::defaultTimer</clockId>
+            <id>Runnable</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="a5d2b942-020f-4f88-8845-757127564e61"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

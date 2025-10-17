@@ -1,0 +1,10 @@
+#D:\matlabProject\TurnLightPractice\TurnLightArb_autosar_rtw\stub\Rte_TurnLightArb.h
+#this file contains the list of RTE methods that the profiling must filter out
+-Rte_Write_TurnLamp_FL_Out_Signal
+-Rte_Invalidate_TurnLamp_FL_Out_Signal
+-Rte_Write_TurnLamp_FR_Out_Signal
+-Rte_Invalidate_TurnLamp_FR_Out_Signal
+-Rte_Write_TurnLamp_RL_Out_Signal
+-Rte_Invalidate_TurnLamp_RL_Out_Signal
+-Rte_Write_TurnLamp_RR_Out_Signal
+-Rte_Invalidate_TurnLamp_RR_Out_Signal

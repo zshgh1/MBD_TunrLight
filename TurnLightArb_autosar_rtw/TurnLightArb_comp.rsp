@@ -1,0 +1,10 @@
+﻿-ID:\matlabProject\TurnLightPractice
+-ID:\matlabProject\TurnLightPractice\TurnLightArb_autosar_rtw
+-IE:\Matlab\toolbox\coder\autosar\rte
+-ID:\matlabProject\TurnLightPractice\TurnLightArb_autosar_rtw\stub
+-IE:\Matlab\extern\include
+-IE:\Matlab\simulink\include
+-IE:\Matlab\rtw\c\src
+-IE:\Matlab\rtw\c\src\ext_mode\common
+-IE:\Matlab\rtw\c\ert
+-ID:\matlabProject\TurnLightPractice\slprj\autosar\_sharedutils

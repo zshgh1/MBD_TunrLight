@@ -1,0 +1,53 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   5 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "CheckTime"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "CheckTime"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c3_TurnLightLogic"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c3_TurnLightLogic"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnLeft"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnLeft"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnRight"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnRight"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

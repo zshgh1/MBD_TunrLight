@@ -1,0 +1,166 @@
+/* This file contains stub implementations of the AUTOSAR RTE functions.
+   The stub implementations can be used for testing the generated code in
+   Simulink, for example, in SIL/PIL simulations of the component under
+   test. Note that this file should be replaced with an appropriate RTE
+   file when deploying the generated code outside of Simulink.
+
+   This file is generated for:
+   Atomic software component:  "TurnLightAct"
+   ARXML schema: "4.3"
+   File generated on: "2025-10-11 16:26:05"  */
+
+#ifndef Rte_TurnLightAct_h
+#define Rte_TurnLightAct_h
+#include "Rte_Type.h"
+#include "Compiler.h"
+
+/* Data access functions */
+#define Rte_Read_TurnLamp_FL_Out_Signal Rte_Read_TurnLightAct_TurnLamp_FL_Out_Signal
+
+Std_ReturnType Rte_Read_TurnLamp_FL_Out_Signal(uint8* u);
+
+#define Rte_Read_TurnLamp_FR_Out_Signal Rte_Read_TurnLightAct_TurnLamp_FR_Out_Signal
+
+Std_ReturnType Rte_Read_TurnLamp_FR_Out_Signal(uint8* u);
+
+#define Rte_Read_TurnLamp_RL_Out_Signal Rte_Read_TurnLightAct_TurnLamp_RL_Out_Signal
+
+Std_ReturnType Rte_Read_TurnLamp_RL_Out_Signal(uint8* u);
+
+#define Rte_Read_TurnLamp_RR_Out_Signal Rte_Read_TurnLightAct_TurnLamp_RR_Out_Signal
+
+Std_ReturnType Rte_Read_TurnLamp_RR_Out_Signal(uint8* u);
+
+#define Rte_Write_Com_CAN_LA_St_DirectionLampL_Signal Rte_Write_TurnLightAct_Com_CAN_LA_St_DirectionLampL_Signal
+
+Std_ReturnType Rte_Write_Com_CAN_LA_St_DirectionLampL_Signal(uint8 u);
+
+#define Rte_Invalidate_Com_CAN_LA_St_DirectionLampL_Signal Rte_Invalidate_TurnLightAct_Com_CAN_LA_St_DirectionLampL_Signal
+
+Std_ReturnType Rte_Invalidate_Com_CAN_LA_St_DirectionLampL_Signal(void);
+
+#define Rte_Write_Com_CAN_LA_St_DirectionLampR_Signal Rte_Write_TurnLightAct_Com_CAN_LA_St_DirectionLampR_Signal
+
+Std_ReturnType Rte_Write_Com_CAN_LA_St_DirectionLampR_Signal(uint8 u);
+
+#define Rte_Invalidate_Com_CAN_LA_St_DirectionLampR_Signal Rte_Invalidate_TurnLightAct_Com_CAN_LA_St_DirectionLampR_Signal
+
+Std_ReturnType Rte_Invalidate_Com_CAN_LA_St_DirectionLampR_Signal(void);
+
+#define Rte_Write_CountSignal_Left_Signal Rte_Write_TurnLightAct_CountSignal_Left_Signal
+
+Std_ReturnType Rte_Write_CountSignal_Left_Signal(uint8 u);
+
+#define Rte_Invalidate_CountSignal_Left_Signal Rte_Invalidate_TurnLightAct_CountSignal_Left_Signal
+
+Std_ReturnType Rte_Invalidate_CountSignal_Left_Signal(void);
+
+#define Rte_Write_CountSignal_Right_Signal Rte_Write_TurnLightAct_CountSignal_Right_Signal
+
+Std_ReturnType Rte_Write_CountSignal_Right_Signal(uint8 u);
+
+#define Rte_Invalidate_CountSignal_Right_Signal Rte_Invalidate_TurnLightAct_CountSignal_Right_Signal
+
+Std_ReturnType Rte_Invalidate_CountSignal_Right_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_FL_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_FL_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_FL_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_FL_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_FL_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_FL_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_FR_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_FR_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_FR_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_FR_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_FR_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_FR_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_RL_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_RL_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_RL_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_RL_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_RL_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_RL_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_RR_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_RR_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_RR_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_RR_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_RR_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_RR_Signal(void);
+
+#define Rte_Write_Com_CAN_LA_St_DirectionLampL_Signal Rte_Write_TurnLightAct_Com_CAN_LA_St_DirectionLampL_Signal
+
+Std_ReturnType Rte_Write_Com_CAN_LA_St_DirectionLampL_Signal(uint8 u);
+
+#define Rte_Invalidate_Com_CAN_LA_St_DirectionLampL_Signal Rte_Invalidate_TurnLightAct_Com_CAN_LA_St_DirectionLampL_Signal
+
+Std_ReturnType Rte_Invalidate_Com_CAN_LA_St_DirectionLampL_Signal(void);
+
+#define Rte_Write_Com_CAN_LA_St_DirectionLampR_Signal Rte_Write_TurnLightAct_Com_CAN_LA_St_DirectionLampR_Signal
+
+Std_ReturnType Rte_Write_Com_CAN_LA_St_DirectionLampR_Signal(uint8 u);
+
+#define Rte_Invalidate_Com_CAN_LA_St_DirectionLampR_Signal Rte_Invalidate_TurnLightAct_Com_CAN_LA_St_DirectionLampR_Signal
+
+Std_ReturnType Rte_Invalidate_Com_CAN_LA_St_DirectionLampR_Signal(void);
+
+#define Rte_Write_CountSignal_Left_Signal Rte_Write_TurnLightAct_CountSignal_Left_Signal
+
+Std_ReturnType Rte_Write_CountSignal_Left_Signal(uint8 u);
+
+#define Rte_Invalidate_CountSignal_Left_Signal Rte_Invalidate_TurnLightAct_CountSignal_Left_Signal
+
+Std_ReturnType Rte_Invalidate_CountSignal_Left_Signal(void);
+
+#define Rte_Write_CountSignal_Right_Signal Rte_Write_TurnLightAct_CountSignal_Right_Signal
+
+Std_ReturnType Rte_Write_CountSignal_Right_Signal(uint8 u);
+
+#define Rte_Invalidate_CountSignal_Right_Signal Rte_Invalidate_TurnLightAct_CountSignal_Right_Signal
+
+Std_ReturnType Rte_Invalidate_CountSignal_Right_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_FL_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_FL_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_FL_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_FL_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_FL_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_FL_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_FR_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_FR_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_FR_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_FR_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_FR_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_FR_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_RL_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_RL_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_RL_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_RL_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_RL_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_RL_Signal(void);
+
+#define Rte_Write_TurnLampCtrlCmd_RR_Signal Rte_Write_TurnLightAct_TurnLampCtrlCmd_RR_Signal
+
+Std_ReturnType Rte_Write_TurnLampCtrlCmd_RR_Signal(uint8 u);
+
+#define Rte_Invalidate_TurnLampCtrlCmd_RR_Signal Rte_Invalidate_TurnLightAct_TurnLampCtrlCmd_RR_Signal
+
+Std_ReturnType Rte_Invalidate_TurnLampCtrlCmd_RR_Signal(void);
+
+/* Entry point functions */
+extern FUNC(void, TurnLightAct_CODE) Runnable(void);
+extern FUNC(void, TurnLightAct_CODE) TurnLightAct_Init(void);
+
+#endif

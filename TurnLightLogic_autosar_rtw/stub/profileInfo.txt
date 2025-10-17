@@ -1,0 +1,20 @@
+#D:\matlabProject\TurnLightPractice\TurnLightLogic_autosar_rtw\stub\Rte_TurnLightLogic.h
+#this file contains the list of RTE methods that the profiling must filter out
+-Rte_Read_CountSignal_Left_Signal
+-Rte_Read_CountSignal_Right_Signal
+-Rte_Read_CrashIntensity_Signal
+-Rte_Read_EmergencyBrakeLight_Signal
+-Rte_Read_HazardSw_Signal
+-Rte_Read_IGN_Status_Signal
+-Rte_Read_TurnLampCtrlCmd_FL_Signal
+-Rte_Read_TurnLampCtrlCmd_FR_Signal
+-Rte_Read_TurnLampCtrlCmd_RL_Signal
+-Rte_Read_TurnLampCtrlCmd_RR_Signal
+-Rte_Read_TurnLampFb_FL_Signal
+-Rte_Read_TurnLampFb_FR_Signal
+-Rte_Read_TurnLampFb_RL_Signal
+-Rte_Read_TurnLampFb_RR_Signal
+-Rte_Read_TurnLampSw_Signal
+-Rte_Read_VehicleSpeed_Signal
+-Rte_Read_VehicleSpeed_Valid_Signal
+-Rte_Call_TurnLightService_TurnLightControl_Operation_Operation

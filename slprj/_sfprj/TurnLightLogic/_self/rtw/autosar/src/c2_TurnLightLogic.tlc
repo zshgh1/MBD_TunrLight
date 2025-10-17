@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "token"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "token"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "FL_flag"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "FL_flag"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "FR_flag"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "FR_flag"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "RL_flag"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "RL_flag"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "RR_flag"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "RR_flag"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c2_TurnLightLogic"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_RL"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Schedule.RL"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FL"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Schedule.FL"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FR"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Schedule.FR"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_RR"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Schedule.RR"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
